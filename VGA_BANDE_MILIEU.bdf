@@ -1,0 +1,400 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect -72 112 96 128)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "CLK_50M" (rect 5 0 52 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -128 128 -72 144))
+)
+(pin
+	(input)
+	(rect -72 136 96 152)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "RESET" (rect 5 0 40 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -128 152 -72 168))
+)
+(pin
+	(input)
+	(rect -32 216 144 232)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "LEFT_BUTTON" (rect 5 0 80 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -88 232 -32 248))
+)
+(pin
+	(input)
+	(rect -40 240 144 256)
+	(text "INPUT" (rect 141 0 169 10)(font "Arial" (font_size 6)))
+	(text "RIGHT_BUTTON" (rect 5 0 88 12)(font "Arial" ))
+	(pt 184 8)
+	(drawing
+		(line (pt 100 12)(pt 125 12))
+		(line (pt 100 4)(pt 125 4))
+		(line (pt 129 8)(pt 184 8))
+		(line (pt 100 12)(pt 100 4))
+		(line (pt 125 4)(pt 129 8))
+		(line (pt 125 12)(pt 129 8))
+	)
+	(text "VCC" (rect 144 7 164 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -96 256 -40 272))
+)
+(pin
+	(output)
+	(rect 808 80 984 96)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "HS_SIGNAL" (rect 90 0 151 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+	(annotation_block (location)(rect 984 96 1040 112))
+)
+(pin
+	(output)
+	(rect 816 136 992 152)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "VS_SIGNAL" (rect 90 0 150 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+	(annotation_block (location)(rect 992 152 1048 168))
+)
+(pin
+	(output)
+	(rect 832 176 1008 192)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "VGA_R[3..0]" (rect 90 0 152 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+	(annotation_block (location)(rect 1008 192 1064 208))
+)
+(pin
+	(output)
+	(rect 840 216 1016 232)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "VGA_G[3..0]" (rect 90 0 152 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+	(annotation_block (location)(rect 1016 232 1072 248))
+)
+(pin
+	(output)
+	(rect 848 256 1024 272)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "VGA_B[3..0]" (rect 90 0 151 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+	(annotation_block (location)(rect 1024 272 1080 288))
+)
+(symbol
+	(rect 184 96 376 176)
+	(text "Freq_div" (rect 5 0 48 12)(font "Arial" ))
+	(text "inst2" (rect 8 64 31 76)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLK_50M" (rect 0 0 47 12)(font "Arial" ))
+		(text "CLK_50M" (rect 21 27 68 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "RESET" (rect 0 0 35 12)(font "Arial" ))
+		(text "RESET" (rect 21 43 56 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 192 32)
+		(output)
+		(text "CLK_25M" (rect 0 0 47 12)(font "Arial" ))
+		(text "CLK_25M" (rect 132 27 179 39)(font "Arial" ))
+		(line (pt 192 32)(pt 176 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 176 64))
+	)
+)
+(symbol
+	(rect 456 96 688 240)
+	(text "VGA_CONTROLEUR_PARTIE2" (rect 5 0 160 12)(font "Arial" ))
+	(text "inst" (rect 8 128 25 140)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLK_25M" (rect 0 0 47 12)(font "Arial" ))
+		(text "CLK_25M" (rect 21 27 68 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "RESET" (rect 0 0 35 12)(font "Arial" ))
+		(text "RESET" (rect 21 43 56 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "LEFT_BUTTON" (rect 0 0 75 12)(font "Arial" ))
+		(text "LEFT_BUTTON" (rect 21 59 96 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "RIGHT_BUTTON" (rect 0 0 83 12)(font "Arial" ))
+		(text "RIGHT_BUTTON" (rect 21 75 104 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 232 32)
+		(output)
+		(text "HS_SIGNAL" (rect 0 0 61 12)(font "Arial" ))
+		(text "HS_SIGNAL" (rect 160 27 221 39)(font "Arial" ))
+		(line (pt 232 32)(pt 216 32))
+	)
+	(port
+		(pt 232 48)
+		(output)
+		(text "VS_SIGNAL" (rect 0 0 60 12)(font "Arial" ))
+		(text "VS_SIGNAL" (rect 161 43 221 55)(font "Arial" ))
+		(line (pt 232 48)(pt 216 48))
+	)
+	(port
+		(pt 232 64)
+		(output)
+		(text "VGA_R[3..0]" (rect 0 0 62 12)(font "Arial" ))
+		(text "VGA_R[3..0]" (rect 159 59 221 71)(font "Arial" ))
+		(line (pt 232 64)(pt 216 64)(line_width 3))
+	)
+	(port
+		(pt 232 80)
+		(output)
+		(text "VGA_G[3..0]" (rect 0 0 62 12)(font "Arial" ))
+		(text "VGA_G[3..0]" (rect 159 75 221 87)(font "Arial" ))
+		(line (pt 232 80)(pt 216 80)(line_width 3))
+	)
+	(port
+		(pt 232 96)
+		(output)
+		(text "VGA_B[3..0]" (rect 0 0 61 12)(font "Arial" ))
+		(text "VGA_B[3..0]" (rect 160 91 221 103)(font "Arial" ))
+		(line (pt 232 96)(pt 216 96)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 216 128))
+	)
+)
+(connector
+	(pt 376 128)
+	(pt 456 128)
+)
+(connector
+	(pt 456 144)
+	(pt 408 144)
+)
+(connector
+	(pt 408 144)
+	(pt 408 192)
+)
+(connector
+	(pt 408 192)
+	(pt 160 192)
+)
+(connector
+	(pt 160 192)
+	(pt 160 144)
+)
+(connector
+	(pt 688 128)
+	(pt 760 128)
+)
+(connector
+	(pt 816 144)
+	(pt 688 144)
+)
+(connector
+	(pt 832 184)
+	(pt 792 184)
+	(bus)
+)
+(connector
+	(pt 792 184)
+	(pt 792 160)
+	(bus)
+)
+(connector
+	(pt 688 160)
+	(pt 792 160)
+	(bus)
+)
+(connector
+	(pt 688 176)
+	(pt 784 176)
+	(bus)
+)
+(connector
+	(pt 784 176)
+	(pt 784 224)
+	(bus)
+)
+(connector
+	(pt 840 224)
+	(pt 784 224)
+	(bus)
+)
+(connector
+	(pt 848 264)
+	(pt 736 264)
+	(bus)
+)
+(connector
+	(pt 736 264)
+	(pt 736 192)
+	(bus)
+)
+(connector
+	(pt 688 192)
+	(pt 736 192)
+	(bus)
+)
+(connector
+	(pt 96 144)
+	(pt 160 144)
+)
+(connector
+	(pt 160 144)
+	(pt 184 144)
+)
+(connector
+	(pt 184 128)
+	(pt 112 128)
+)
+(connector
+	(pt 112 128)
+	(pt 112 120)
+)
+(connector
+	(pt 96 120)
+	(pt 112 120)
+)
+(connector
+	(pt 144 224)
+	(pt 416 224)
+)
+(connector
+	(pt 416 224)
+	(pt 416 160)
+)
+(connector
+	(pt 456 160)
+	(pt 416 160)
+)
+(connector
+	(pt 456 176)
+	(pt 432 176)
+)
+(connector
+	(pt 432 176)
+	(pt 432 248)
+)
+(connector
+	(pt 144 248)
+	(pt 432 248)
+)
+(connector
+	(pt 760 128)
+	(pt 760 88)
+)
+(connector
+	(pt 760 88)
+	(pt 808 88)
+)
+(junction (pt 160 144))
